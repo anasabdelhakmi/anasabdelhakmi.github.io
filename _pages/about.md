@@ -41,7 +41,7 @@ Teaching
 
 Selected Talks
 =====
-<b>Bayesian Inventory Control with Unobserved Lost Sales and Hedging Opportunities</b>
+<b>Dynamic Asset Pricing and Allocation with Expert Forecasts</b>
 - INFORMS Annual Meeting, October 2024, Seattle US (Upcoming Talk)
 
  <b>A Multi-Period Black-Litterman Model</b> 

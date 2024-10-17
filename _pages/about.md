@@ -45,6 +45,7 @@ Selected Talks
 - INFORMS Annual Meeting, October 2024, Seattle US (Upcoming Talk)
 
  <b>A Multi-Period Black-Litterman Model</b> 
+  - INFORMS APS Market Showcases, October 2024, Seattle US (Upcoming Talk)
   - Quantitative Finance Workshop, Singapore Management University, July 2024, Singapore
   - Mathematics & Decisions Conference, UM6P, December 2023, Morocco
   - International Research & Innovation Seminar, UM6P, December 2023, Morocco

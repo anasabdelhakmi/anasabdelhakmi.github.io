@@ -23,7 +23,7 @@ Research
 Major Revision in <em>Operations Research</em>
 
 **Working Papers**
-- <b> Integrating Forward-looking Expert Views into Dynamic Factor models</b> with Andrew Lim
+- <b> Integrating Forward-Looking Expert Views into Dynamic Factor models</b> with Andrew Lim
 - <b> When Worst-Case Isn't Robust: On The Limitations of Distributionally Robust Formulations in Secretary Problems</b> with Andrew Lim
 - <b> Personalized Learning in Partially Observable Environments </b> with Jussi Keppo and Tan Hong Ming 
 - <b> Technical Note - Brownian Bridge From Noisy Observations </b> With Andrew Lim
@@ -42,7 +42,7 @@ Teaching
 
 Selected Talks
 =====
-<b>Integrating Forward-looking Expert Views into Dynamic Factor models</b>
+<b>Integrating Forward-Looking Expert Views into Dynamic Factor models</b>
 - INFORMS Annual Meeting, October 2024, Seattle US
 - Quantitative Finance Workshop, Singapore Management University, July 2025, Singapore
 

@@ -18,7 +18,7 @@ I am interested in <b>Data-driven Decision-making</b>, with a focus on leveragin
 Research
 ==============
 
-**Under-Revision Papers**
+**Published Papers**
 - [Dynamic Black-Litterman](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4811035) with Andrew Lim <br>
 Accepted in <em>Operations Research</em>
 

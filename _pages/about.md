@@ -19,8 +19,8 @@ Research
 ==============
 
 **Published Papers**
-- [Dynamic Black-Litterman](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4811035) with Andrew Lim <br>
-Accepted in <em>Operations Research</em>
+- [Dynamic Black-Litterman](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4811035) (with Andrew Lim), 2025. <br>
+Forthcoming, <em>Operations Research</em>
 
 **Working Papers**
 - <b> Integrating Forward-Looking Expert Views into Dynamic Factor models</b> with Andrew Lim

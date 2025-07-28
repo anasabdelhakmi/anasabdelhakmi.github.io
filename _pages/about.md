@@ -25,8 +25,8 @@ Forthcoming, <em>Operations Research</em>
 **Working Papers**
 - [Dynamic Factor Models with Forward-Looking Views](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5366719) with Andrew Lim
 - <b> When Worst-Case Isn't Robust: On The Limitations of Distributionally Robust Formulations in Secretary Problems</b> with Andrew Lim
+- <b> Brownian Bridge From Noisy Observations </b> With Andrew Lim
 - <b> Personalized Learning in Partially Observable Environments </b> with Jussi Keppo and Tan Hong Ming 
-- <b> Technical Note - Brownian Bridge From Noisy Observations </b> With Andrew Lim
 
 
 Teaching

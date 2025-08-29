@@ -59,7 +59,10 @@ const Index = () => {
             <h1 className="text-xl font-semibold text-foreground">Your Name</h1>
             <nav className="flex space-x-6">
               <a href="#about" className="text-muted-foreground hover:text-foreground transition-colors">About</a>
+              <a href="#news" className="text-muted-foreground hover:text-foreground transition-colors">News</a>
               <a href="#research" className="text-muted-foreground hover:text-foreground transition-colors">Research</a>
+              <a href="#teaching" className="text-muted-foreground hover:text-foreground transition-colors">Teaching</a>
+              <a href="#talks" className="text-muted-foreground hover:text-foreground transition-colors">Talks</a>
               <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">CV</a>
             </nav>
           </div>
@@ -198,7 +201,7 @@ const Index = () => {
         </section>
 
         {/* Teaching Section */}
-        <section className="mb-16">
+        <section id="teaching" className="mb-16">
           <h2 className="text-3xl font-bold text-foreground mb-8">Teaching</h2>
           <div className="space-y-4">
             <div>
@@ -213,7 +216,7 @@ const Index = () => {
         </section>
 
         {/* Talks Section */}
-        <section className="mb-16">
+        <section id="talks" className="mb-16">
           <h2 className="text-3xl font-bold text-foreground mb-8">Talks</h2>
           <div className="space-y-6">
             <div className="border-l-2 border-border pl-6">

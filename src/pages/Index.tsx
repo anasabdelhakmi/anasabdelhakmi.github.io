@@ -102,6 +102,34 @@ const Index = () => {
           </div>
         </section>
 
+        {/* News Section */}
+        <section id="news" className="mb-16">
+          <h2 className="text-3xl font-bold text-foreground mb-8">News</h2>
+          <div className="space-y-6">
+            <div className="border-l-2 border-border pl-6">
+              <div className="flex items-start justify-between mb-2">
+                <h4 className="text-lg font-medium text-foreground">New paper accepted at [Conference/Journal Name]</h4>
+                <span className="text-sm text-muted-foreground">Dec 2024</span>
+              </div>
+              <p className="text-muted-foreground">Our paper "[Paper Title]" has been accepted for publication.</p>
+            </div>
+            <div className="border-l-2 border-border pl-6">
+              <div className="flex items-start justify-between mb-2">
+                <h4 className="text-lg font-medium text-foreground">Presented research at [Conference Name]</h4>
+                <span className="text-sm text-muted-foreground">Nov 2024</span>
+              </div>
+              <p className="text-muted-foreground">Successfully presented findings on [research topic] at the annual conference.</p>
+            </div>
+            <div className="border-l-2 border-border pl-6">
+              <div className="flex items-start justify-between mb-2">
+                <h4 className="text-lg font-medium text-foreground">Research grant awarded</h4>
+                <span className="text-sm text-muted-foreground">Oct 2024</span>
+              </div>
+              <p className="text-muted-foreground">Received funding for [research project] from [funding agency].</p>
+            </div>
+          </div>
+        </section>
+
         {/* Research Section */}
         <section id="research" className="mb-16">
           <h2 className="text-3xl font-bold text-foreground mb-8">Research</h2>
@@ -180,6 +208,37 @@ const Index = () => {
             <div>
               <h4 className="text-lg font-medium text-foreground">Teaching Assistant</h4>
               <p className="text-muted-foreground">Another Course (Semester Year) - [University]</p>
+            </div>
+          </div>
+        </section>
+
+        {/* Talks Section */}
+        <section className="mb-16">
+          <h2 className="text-3xl font-bold text-foreground mb-8">Talks</h2>
+          <div className="space-y-6">
+            <div className="border-l-2 border-border pl-6">
+              <div className="flex items-start justify-between mb-2">
+                <h4 className="text-lg font-medium text-foreground">"[Talk Title]"</h4>
+                <span className="text-sm text-muted-foreground">Dec 2024</span>
+              </div>
+              <p className="text-muted-foreground mb-1">[Conference/Seminar Name], [Location]</p>
+              <p className="text-sm text-muted-foreground">[Brief description or key points of the talk]</p>
+            </div>
+            <div className="border-l-2 border-border pl-6">
+              <div className="flex items-start justify-between mb-2">
+                <h4 className="text-lg font-medium text-foreground">"[Another Talk Title]"</h4>
+                <span className="text-sm text-muted-foreground">Nov 2024</span>
+              </div>
+              <p className="text-muted-foreground mb-1">[Workshop/Department Seminar], [University/Institution]</p>
+              <p className="text-sm text-muted-foreground">[Brief description or key points of the talk]</p>
+            </div>
+            <div className="border-l-2 border-border pl-6">
+              <div className="flex items-start justify-between mb-2">
+                <h4 className="text-lg font-medium text-foreground">"[Research Presentation Title]"</h4>
+                <span className="text-sm text-muted-foreground">Oct 2024</span>
+              </div>
+              <p className="text-muted-foreground mb-1">[Graduate Student Conference], [Location]</p>
+              <p className="text-sm text-muted-foreground">[Brief description or key points of the talk]</p>
             </div>
           </div>
         </section>

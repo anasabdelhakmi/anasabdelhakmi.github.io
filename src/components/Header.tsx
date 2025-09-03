@@ -1,10 +1,4 @@
-import { useState } from 'react';
-import { Menu, X } from 'lucide-react';
-import { Button } from '@/components/ui/button';
-
 const Header = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
-
   const navItems = [
     { name: 'About', href: '#about' },
     { name: 'Research', href: '#research' },
@@ -36,36 +30,18 @@ const Header = () => {
             ))}
           </nav>
 
-          {/* Mobile menu button */}
+          {/* Mobile CV link */}
           <div className="md:hidden">
-            <Button
-              variant="ghost"
-              size="sm"
-              onClick={() => setIsMenuOpen(!isMenuOpen)}
+            <a
+              href="/Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-foreground hover:text-primary transition-colors duration-300 font-medium"
             >
-              {isMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
-            </Button>
+              CV
+            </a>
           </div>
         </div>
-
-        {/* Mobile Navigation */}
-        {isMenuOpen && (
-          <div className="md:hidden">
-            <div className="px-2 pt-2 pb-4 space-y-1 bg-background border-t border-border shadow-lg">
-              {navItems.map((item) => (
-                <a
-                  key={item.name}
-                  href={item.href}
-                  className="block px-4 py-3 text-foreground hover:text-primary hover:bg-accent/50 transition-all duration-300 font-medium rounded-md text-base"
-                  onClick={() => setIsMenuOpen(false)}
-                  {...(item.external && { target: '_blank', rel: 'noopener noreferrer' })}
-                >
-                  {item.name}
-                </a>
-              ))}
-            </div>
-          </div>
-        )}
       </div>
     </header>
   );

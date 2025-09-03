@@ -53,7 +53,7 @@ const Index = () => {
               <a href="#research" className="text-muted-foreground hover:text-foreground transition-colors">Research</a>
               <a href="#teaching" className="text-muted-foreground hover:text-foreground transition-colors">Teaching</a>
               <a href="#talks" className="text-muted-foreground hover:text-foreground transition-colors">Talks</a>
-              <a href="/Users/anasabdelhakmi/Desktop/PhD IORA/Final Website/website_anasabdelhakmi/src/assets/Resume.pdf" className="text-muted-foreground hover:text-foreground transition-colors">CV</a>
+              <a href="Resume.pdf" className="text-muted-foreground hover:text-foreground transition-colors">CV</a>
             </nav>
           </div>
         </div>

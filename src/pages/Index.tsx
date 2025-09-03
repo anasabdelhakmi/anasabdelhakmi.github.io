@@ -104,7 +104,7 @@ const Index = () => {
                 <h4 className="text-lg font-medium text-foreground">Upcoming talk at: <a href = "https://iora.nus.edu.sg/afx2025/" className="text-primary hover:underline">Next-Gen Scholar's Symposium 2025</a></h4>
                 <span className="text-sm text-muted-foreground">September 2025</span>
               </div>
-              <p className="text-muted-foreground">I will be presenting my paper on understanding robustness in sequential decision-making at NUS Next-Gen's Symposium 2025.</p>
+              <p className="text-muted-foreground">I'll be presenting our paper <b>"When Worst-Case Isn't Robust"</b> at NUS Next-Gen Scholar's Symposium. I'll share our recent work on understanding the interplay between learning and robustness in multi-period, sequential decision-making.</p>
             </div>
 
 

@@ -1,52 +1,42 @@
 import { Mail, ExternalLink, FileText } from 'lucide-react';
-import profileImage from '@/assets/profile-simple.jpg';
+import profileImage from '@/assets/me.jpg';
 
 const Index = () => {
   const publications = [
     {
-      title: "Your Key Research Paper: A Comprehensive Analysis",
-      authors: "Your Name, Co-Author Name",
-      journal: "Journal of Your Field",
-      year: "2024",
-      status: "Forthcoming",
-      link: "#",
+      title: "Dynamic Black-Litterman",
+      authors: "Anas Abdelhakmi, Andrew Lim",
+      journal: "Operations Research",
+      year: "2025",
+      status: "Articles in Advance",
+      link: "https://pubsonline.informs.org/doi/10.1287/opre.2024.1010",
       notes: [
-        "Preliminary version appeared in Conference Proceedings, 2023",
-        "Winner, Best Student Paper Award"
       ]
-    },
-    {
-      title: "Another Important Contribution to Your Research Area",
-      authors: "Your Name, Collaborator A, Collaborator B",
-      journal: "Top Journal in Your Field",
-      year: "2023", 
-      status: "Published",
-      link: "#",
-      notes: [
-        "Featured Article in Journal Issue",
-        "Presented at International Conference 2023"
-      ]
-    },
-    {
-      title: "Working Paper: Current Research Direction",
-      authors: "Your Name",
-      journal: "Under Review",
-      year: "2024",
-      status: "Working Paper",
-      link: "#"
     }
   ];
 
   const workingPapers = [
     {
-      title: "Novel Methodology for [Your Research Problem]",
-      authors: "Your Name, Research Partner",
-      status: "Under Review at Journal Name"
+      title: "Dynamic Factor Models with Forward-Looking Views",
+      authors: "Anas Abdelhakmi, Andrew Lim",
+      status: "In preparation for submission",
+      link: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5366719"
     },
     {
-      title: "Empirical Study on [Specific Topic]",
-      authors: "Your Name, Co-authors",
-      status: "Working Paper"
+      title: "When Worst-Case Isn't Robust: On the Limitations of Distributionally Robust Optimization in Secretary Problems",
+      authors: "Anas Abdelhakmi, Andrew Lim",
+      status: "In preparation for submission"
+    },
+    {
+      title: "Brownian Bridge from Noisy Observations",
+      authors: "Anas Abdelhakmi, Andrew Lim",
+      status: "In preparation for submission"
+    },
+    {
+      title: "Personalized Learning in Partially Observable Environments",
+      authors: "Anas Abdelhakmi, Jussi Keppo, Hong Ming Tan",
+      status: "Work in Progress",
+      notes: [ "Industrial Project with a Major Airline Company"]
     }
   ];
 
@@ -56,14 +46,14 @@ const Index = () => {
       <header className="border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 sticky top-0 z-50">
         <div className="max-w-4xl mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
-            <h1 className="text-xl font-semibold text-foreground">Your Name</h1>
+            <h1 className="text-xl font-semibold text-foreground">Anas Abdelhakmi</h1>
             <nav className="flex space-x-6">
               <a href="#about" className="text-muted-foreground hover:text-foreground transition-colors">About</a>
               <a href="#news" className="text-muted-foreground hover:text-foreground transition-colors">News</a>
               <a href="#research" className="text-muted-foreground hover:text-foreground transition-colors">Research</a>
               <a href="#teaching" className="text-muted-foreground hover:text-foreground transition-colors">Teaching</a>
               <a href="#talks" className="text-muted-foreground hover:text-foreground transition-colors">Talks</a>
-              <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">CV</a>
+              <a href="/Users/anasabdelhakmi/Desktop/PhD IORA/Final Website/website_anasabdelhakmi/src/assets/Resume.pdf" className="text-muted-foreground hover:text-foreground transition-colors">CV</a>
             </nav>
           </div>
         </div>
@@ -81,25 +71,25 @@ const Index = () => {
               />
             </div>
             <div className="flex-1">
-              <h1 className="text-4xl font-bold text-foreground mb-2">Your Name</h1>
+              <h1 className="text-4xl font-bold text-foreground mb-2">Anas Abdelhakmi</h1>
               <p className="text-xl text-muted-foreground mb-4">
-                PhD Student in [Your Field]<br />
-                <a href="#" className="text-primary hover:underline">[Your University]</a>
+                PhD Candidate in Operations Research<br />
+                <a href="https://iora.nus.edu.sg" className="text-primary hover:underline">National University of Singapore</a>
               </p>
               <div className="flex items-center text-muted-foreground mb-6">
                 <Mail className="w-4 h-4 mr-2" />
-                <span>your.email@university.edu</span>
+                <span>a.anas[at]u.nus.edu</span>
               </div>
               <div className="prose prose-lg max-w-none">
                 <p className="text-foreground leading-relaxed">
-                  I am a PhD student in [Your Field] at [Your University]. I received my [Previous Degree] 
-                  from [Previous University] where I was advised by [Previous Advisor]. 
+                  I am a fifth-year year PhD candidate in Operations Research at <a href = "https://iora.nus.edu.sg" className="text-primary hover:underline">the Insitute of Operations Research & Analytics (IORA)</a> at NUS, working with Prof. <a href = "https://www.andreaslimoncello.net" className="text-primary hover:underline">Andrew Lim</a> and Prof. <a href = "https://www.jussikeppo.com" className="text-primary hover:underline">Jussi Keppo</a>.
                 </p>
+                <br></br>
                 <p className="text-foreground leading-relaxed">
-                  My research focuses on [your research area] with particular emphasis on [specific topics]. 
-                  I am interested in [research interests] and their applications to [practical applications]. 
-                  My current work draws on tools from [methodologies] and addresses [key problems].
+                I study <b>data-driven sequential decision-making under uncertainty</b>, with an emphasis on learning in multi-period, dynamic settings. At a high level, I design new methods that deepen our understanding of  <b>learning</b> and <b>robustness</b>, including their interaction, in sequential decision-making. Applications include problems in sequential search, financial engineering, and inventory management.
+
                 </p>
+                <br></br><p className="text-foreground leading-relaxed"> Prior to joining NUS, I earned a BS and MS in Industrial Engineering from <a href = "https://um6p.ma" className="text-primary hover:underline">EMINES&ndash;University Mohammed VI Polytechnic (UM6P)</a>.</p>
               </div>
             </div>
           </div>
@@ -107,29 +97,27 @@ const Index = () => {
 
         {/* News Section */}
         <section id="news" className="mb-16">
-          <h2 className="text-3xl font-bold text-foreground mb-8">News</h2>
+          <h2 className="text-3xl font-bold text-foreground mb-8">Recent News</h2>
           <div className="space-y-6">
+          <div className="border-l-2 border-border pl-6">
+              <div className="flex items-start justify-between mb-2">
+                <h4 className="text-lg font-medium text-foreground">Upcoming talk at: <a href = "https://iora.nus.edu.sg/afx2025/" className="text-primary hover:underline">Next-Gen Scholar's Symposium 2025</a></h4>
+                <span className="text-sm text-muted-foreground">September 2025</span>
+              </div>
+              <p className="text-muted-foreground">I will be presenting my paper on understanding robustness in sequential decision-making in NUS Next-Gen 2025.</p>
+            </div>
+
+
             <div className="border-l-2 border-border pl-6">
               <div className="flex items-start justify-between mb-2">
-                <h4 className="text-lg font-medium text-foreground">New paper accepted at [Conference/Journal Name]</h4>
-                <span className="text-sm text-muted-foreground">Dec 2024</span>
+                <h4 className="text-lg font-medium text-foreground">Paper accepted at Operations Research!</h4>
+                <span className="text-sm text-muted-foreground">June 2025</span>
               </div>
-              <p className="text-muted-foreground">Our paper "[Paper Title]" has been accepted for publication.</p>
+              <p className="text-muted-foreground">Our paper <a href = "https://pubsonline.informs.org/doi/10.1287/opre.2024.1010" className="text-primary hover:underline">Dynamic Black-Litterman</a> has been accepted for publication in Operations Research. In this work, we show how decision-makers can integrate forward-looking views and forecasts into dynamic data-driven models.</p>
             </div>
-            <div className="border-l-2 border-border pl-6">
-              <div className="flex items-start justify-between mb-2">
-                <h4 className="text-lg font-medium text-foreground">Presented research at [Conference Name]</h4>
-                <span className="text-sm text-muted-foreground">Nov 2024</span>
-              </div>
-              <p className="text-muted-foreground">Successfully presented findings on [research topic] at the annual conference.</p>
-            </div>
-            <div className="border-l-2 border-border pl-6">
-              <div className="flex items-start justify-between mb-2">
-                <h4 className="text-lg font-medium text-foreground">Research grant awarded</h4>
-                <span className="text-sm text-muted-foreground">Oct 2024</span>
-              </div>
-              <p className="text-muted-foreground">Received funding for [research project] from [funding agency].</p>
-            </div>
+           
+            
+            
           </div>
         </section>
 
@@ -172,8 +160,12 @@ const Index = () => {
             <div className="space-y-6">
               {workingPapers.map((paper, index) => (
                 <div key={index} className="border-l-2 border-border pl-6">
-                  <h4 className="text-lg font-medium text-foreground mb-2">
-                    {paper.title}
+                  <h4  className="text-lg font-medium text-foreground mb-2">
+                  {paper.link ? (
+                    <a href={paper.link} className="text-primary hover:underline">{paper.title}</a>
+                  ) : (
+                    <span>{paper.title}</span>
+                  )}
                     {paper.authors.split(',').length > 1 && (
                       <span className="text-muted-foreground"> with {paper.authors.split(',').slice(1).join(',')}</span>
                     )}
@@ -184,12 +176,12 @@ const Index = () => {
             </div>
           </div>
 
-          {/* Work in Progress */}
+       {false && (
           <div>
             <h3 className="text-2xl font-semibold text-foreground mb-6">Work in Progress</h3>
             <div className="space-y-4">
               <div className="border-l-2 border-border pl-6">
-                <h4 className="text-lg font-medium text-foreground">Ongoing Research Project 1</h4>
+                <h4 className="text-lg font-medium text-foreground">Personalized Learning in Partially Observable Environments</h4>
                 <p className="text-muted-foreground">Brief description of current work</p>
               </div>
               <div className="border-l-2 border-border pl-6">
@@ -197,7 +189,7 @@ const Index = () => {
                 <p className="text-muted-foreground">Brief description of current work</p>
               </div>
             </div>
-          </div>
+          </div> ) }
         </section>
 
         {/* Teaching Section */}
@@ -205,43 +197,49 @@ const Index = () => {
           <h2 className="text-3xl font-bold text-foreground mb-8">Teaching</h2>
           <div className="space-y-4">
             <div>
-              <h4 className="text-lg font-medium text-foreground">Teaching Assistant</h4>
-              <p className="text-muted-foreground">Course Name (Semester Year) - [University]</p>
+              <h4 className="text-lg font-medium text-foreground">Instructor</h4>
+              <p className="text-muted-foreground"><b>DAO1704 Decision Analytics using Spreadsheets</b> (Undergraduate Core, NUS Business School), Fall 2024 -</p>
             </div>
             <div>
               <h4 className="text-lg font-medium text-foreground">Teaching Assistant</h4>
-              <p className="text-muted-foreground">Another Course (Semester Year) - [University]</p>
+              <p className="text-muted-foreground"><b>DBA3803 Predictive Analytics in Business</b> (Undergraduate Core, NUS Business School), Spring 2024</p>
+              <p className="text-muted-foreground"><b>BDC6112 Stochastic Processes</b> (PhD Core, NUS Business School), Fall 2022</p>
             </div>
           </div>
         </section>
 
         {/* Talks Section */}
         <section id="talks" className="mb-16">
-          <h2 className="text-3xl font-bold text-foreground mb-8">Talks</h2>
+          <h2 className="text-3xl font-bold text-foreground mb-8">Selected Talks</h2>
           <div className="space-y-6">
             <div className="border-l-2 border-border pl-6">
               <div className="flex items-start justify-between mb-2">
-                <h4 className="text-lg font-medium text-foreground">"[Talk Title]"</h4>
-                <span className="text-sm text-muted-foreground">Dec 2024</span>
+                <h4 className="text-lg font-medium text-foreground">When Worst-Case Isn't Robust</h4>
               </div>
-              <p className="text-muted-foreground mb-1">[Conference/Seminar Name], [Location]</p>
-              <p className="text-sm text-muted-foreground">[Brief description or key points of the talk]</p>
+              <p className="text-muted-foreground mb-1">INFORMS International 2025, Singapore, July 2025</p>
+              <p className="text-muted-foreground mb-1">INFORMS APS 2025, Atlanta, USA, July 2025</p>
             </div>
             <div className="border-l-2 border-border pl-6">
               <div className="flex items-start justify-between mb-2">
-                <h4 className="text-lg font-medium text-foreground">"[Another Talk Title]"</h4>
-                <span className="text-sm text-muted-foreground">Nov 2024</span>
+                <h4 className="text-lg font-medium text-foreground">Dynamic Factor Models with Forward-Looking Views</h4>
               </div>
-              <p className="text-muted-foreground mb-1">[Workshop/Department Seminar], [University/Institution]</p>
-              <p className="text-sm text-muted-foreground">[Brief description or key points of the talk]</p>
+              <p className="text-muted-foreground mb-1">Quantitative Finance Workshop, Singapore Management University, Singapore, July 2025</p>
+              <p className="text-muted-foreground mb-1">INFORMS International 2025, Singapore, July 2025</p>
+              <p className="text-muted-foreground mb-1">INFORMS Annual Meeting 2024, Seattle, USA, October 2024</p>
+
             </div>
             <div className="border-l-2 border-border pl-6">
               <div className="flex items-start justify-between mb-2">
-                <h4 className="text-lg font-medium text-foreground">"[Research Presentation Title]"</h4>
-                <span className="text-sm text-muted-foreground">Oct 2024</span>
+                <h4 className="text-lg font-medium text-foreground">Dynamic Black-Litterman</h4>
               </div>
-              <p className="text-muted-foreground mb-1">[Graduate Student Conference], [Location]</p>
-              <p className="text-sm text-muted-foreground">[Brief description or key points of the talk]</p>
+              <p className="text-muted-foreground mb-1">INFORMS APS Market Showcases, Seattle, USA, October 2024</p>
+              <p className="text-muted-foreground mb-1">Quantitative Finance Workshop, Singapore Management University, Singapore, July 2024</p>
+              <p className="text-muted-foreground mb-1">Mathematics & Decisions Conference and IRIS Seminar, UM6P, Morocco, December 2023</p>
+              <p className="text-muted-foreground mb-1">INFORMS APS 2023, Nancy, France, June 2023</p>
+
+              
+
+              <p className="text-sm text-muted-foreground"><a href = "https://youtu.be/0XsvzKQcBwQ" className="text-primary hover:underline">[talk]</a> </p>
             </div>
           </div>
         </section>
@@ -250,7 +248,7 @@ const Index = () => {
       {/* Simple Footer */}
       <footer className="border-t border-border py-8">
         <div className="max-w-4xl mx-auto px-6 text-center text-muted-foreground">
-          <p>© {new Date().getFullYear()} Your Name. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Anas Abdelhakmi. All rights reserved.</p>
         </div>
       </footer>
     </div>

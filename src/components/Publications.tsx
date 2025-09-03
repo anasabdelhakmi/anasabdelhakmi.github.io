@@ -6,10 +6,10 @@ import { Badge } from '@/components/ui/badge';
 const Publications = () => {
   const publications = [
     {
-      title: 'Title of Your First Publication: A Comprehensive Study',
-      authors: 'Your Name, Co-Author Name, Another Author',
-      journal: 'Journal of [Your Field]',
-      year: '2024',
+      title: 'Dynamic Black-Litterman',
+      authors: 'Anas Abdelhakmi, Andrew Lim, Another Author',
+      journal: 'Operations Research',
+      year: '2025',
       type: 'Journal Article',
       status: 'Published',
       abstract: 'This study investigates [research question] through [methodology]. Our findings suggest [key findings] with implications for [field/application]. The research contributes to [broader impact].',

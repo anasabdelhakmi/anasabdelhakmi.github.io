@@ -14,11 +14,11 @@ const Hero = () => {
                 <h1 className="text-5xl lg:text-6xl font-bold text-primary leading-tight">
                   Hello, I'm{' '}
                   <span className="bg-gradient-accent bg-clip-text text-transparent">
-                    [Your Name]
+                    [Anas Abdelhakmi]
                   </span>
                 </h1>
                 <p className="text-xl text-muted-foreground max-w-lg">
-                  PhD Student in [Your Field] at [University Name]
+                  PhD Candidate in Operations Research at IORA
                 </p>
               </div>
 

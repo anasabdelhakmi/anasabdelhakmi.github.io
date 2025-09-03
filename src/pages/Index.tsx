@@ -110,10 +110,10 @@ const Index = () => {
 
             <div className="border-l-2 border-border pl-6">
               <div className="flex items-start justify-between mb-2">
-                <h4 className="text-lg font-medium text-foreground">Paper accepted at Operations Research!</h4>
+                <h4 className="text-lg font-medium text-foreground">Paper accepted in Operations Research!</h4>
                 <span className="text-sm text-muted-foreground">June 2025</span>
               </div>
-              <p className="text-muted-foreground">Our paper <a href = "https://pubsonline.informs.org/doi/10.1287/opre.2024.1010" className="text-primary hover:underline">Dynamic Black-Litterman</a> has been accepted for publication in Operations Research. In this work, we show how decision-makers can integrate forward-looking views and forecasts into dynamic data-driven models.</p>
+              <p className="text-muted-foreground">Our paper <a href = "https://pubsonline.informs.org/doi/10.1287/opre.2024.1010" className="text-primary hover:underline">Dynamic Black-Litterman</a> has been accepted for publication in Operations Research. In this work, we show how decision-makers can integrate forward-looking views and forecasts into dynamic, data-driven models.</p>
             </div>
            
             

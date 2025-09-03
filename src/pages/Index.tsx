@@ -104,7 +104,7 @@ const Index = () => {
                 <h4 className="text-lg font-medium text-foreground">Upcoming talk at: <a href = "https://iora.nus.edu.sg/afx2025/" className="text-primary hover:underline">Next-Gen Scholar's Symposium 2025</a></h4>
                 <span className="text-sm text-muted-foreground">September 2025</span>
               </div>
-              <p className="text-muted-foreground">I will be presenting my paper on understanding robustness in sequential decision-making in NUS Next-Gen 2025.</p>
+              <p className="text-muted-foreground">I will be presenting my paper on understanding robustness in sequential decision-making at NUS Next-Gen's Symposium 2025.</p>
             </div>
 
 
@@ -226,8 +226,8 @@ const Index = () => {
               <p className="text-muted-foreground mb-1">Quantitative Finance Workshop, Singapore Management University, Singapore, July 2025</p>
               <p className="text-muted-foreground mb-1">INFORMS International 2025, Singapore, July 2025</p>
               <p className="text-muted-foreground mb-1">INFORMS Annual Meeting 2024, Seattle, USA, October 2024</p>
-
             </div>
+
             <div className="border-l-2 border-border pl-6">
               <div className="flex items-start justify-between mb-2">
                 <h4 className="text-lg font-medium text-foreground">Dynamic Black-Litterman</h4>
@@ -240,6 +240,13 @@ const Index = () => {
               
 
               <p className="text-sm text-muted-foreground"><a href = "https://youtu.be/0XsvzKQcBwQ" className="text-primary hover:underline">[talk]</a> </p>
+            </div>
+
+            <div className="border-l-2 border-border pl-6">
+              <div className="flex items-start justify-between mb-2">
+                <h4 className="text-lg font-medium text-foreground">Personalized Learning in Partially Observable Environments </h4>
+              </div>
+              <p className="text-muted-foreground mb-1">INFORMS Annual Meeting 2023, Phoenix, USA, October 2023</p>
             </div>
           </div>
         </section>

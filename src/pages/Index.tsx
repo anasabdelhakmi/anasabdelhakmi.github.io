@@ -47,21 +47,26 @@ const Index = () => {
         <div className="max-w-4xl mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
             <h1 className="text-xl font-semibold text-foreground">Anas Abdelhakmi</h1>
-            <nav className="flex space-x-6">
-              <a href="#about" className="text-muted-foreground hover:text-foreground transition-colors">About</a>
-              <a href="#news" className="text-muted-foreground hover:text-foreground transition-colors">News</a>
-              <a href="#research" className="text-muted-foreground hover:text-foreground transition-colors">Research</a>
-              <a href="#teaching" className="text-muted-foreground hover:text-foreground transition-colors">Teaching</a>
-              <a href="#talks" className="text-muted-foreground hover:text-foreground transition-colors">Talks</a>
+            {/* Desktop Navigation */}
+            <nav className="hidden md:flex space-x-6">
+              <a href="#about" className="text-muted-foreground hover:text-foreground transition-colors scroll-smooth">About</a>
+              <a href="#news" className="text-muted-foreground hover:text-foreground transition-colors scroll-smooth">News</a>
+              <a href="#research" className="text-muted-foreground hover:text-foreground transition-colors scroll-smooth">Research</a>
+              <a href="#teaching" className="text-muted-foreground hover:text-foreground transition-colors scroll-smooth">Teaching</a>
+              <a href="#talks" className="text-muted-foreground hover:text-foreground transition-colors scroll-smooth">Talks</a>
               <a href="Resume.pdf" className="text-muted-foreground hover:text-foreground transition-colors">CV</a>
             </nav>
+            {/* Mobile CV Link Only */}
+            <div className="md:hidden">
+              <a href="Resume.pdf" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground transition-colors">CV</a>
+            </div>
           </div>
         </div>
       </header>
 
       <main className="max-w-4xl mx-auto px-6 py-12">
         {/* Profile Section */}
-        <section id="about" className="mb-16">
+        <section id="about" className="mb-16 scroll-mt-20">
           <div className="flex flex-col md:flex-row items-start gap-8 mb-8">
             <div className="flex-shrink-0">
               <img 
@@ -116,7 +121,7 @@ const Index = () => {
         </section>
 
         {/* News Section */}
-        <section id="news" className="mb-16">
+        <section id="news" className="mb-16 scroll-mt-20">
           <h2 className="text-3xl font-bold text-foreground mb-8">Recent News</h2>
           <div className="space-y-6">
           <div className="border-l-2 border-border pl-6">
@@ -142,7 +147,7 @@ const Index = () => {
         </section>
 
         {/* Research Section */}
-        <section id="research" className="mb-16">
+        <section id="research" className="mb-16 scroll-mt-20">
           <h2 className="text-3xl font-bold text-foreground mb-8">Research</h2>
           
           {/* Published Papers */}
@@ -213,7 +218,7 @@ const Index = () => {
         </section>
 
         {/* Teaching Section */}
-        <section id="teaching" className="mb-16">
+        <section id="teaching" className="mb-16 scroll-mt-20">
           <h2 className="text-3xl font-bold text-foreground mb-8">Teaching</h2>
           <div className="space-y-4">
             <div>
@@ -229,7 +234,7 @@ const Index = () => {
         </section>
 
         {/* Talks Section */}
-        <section id="talks" className="mb-16">
+        <section id="talks" className="mb-16 scroll-mt-20">
           <h2 className="text-3xl font-bold text-foreground mb-8">Selected Talks</h2>
           <div className="space-y-6">
             <div className="border-l-2 border-border pl-6">

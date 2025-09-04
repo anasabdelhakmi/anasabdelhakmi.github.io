@@ -111,7 +111,7 @@ const Index = () => {
               </div>
               <div className="prose prose-lg max-w-none">
                 <p className="text-foreground leading-relaxed">
-                  I am a fifth-year year PhD candidate in Operations Research at <a href = "https://iora.nus.edu.sg" className="text-primary hover:underline">the Insitute of Operations Research & Analytics (IORA)</a> at NUS, working with Prof. <a href = "https://www.andreaslimoncello.net" className="text-primary hover:underline">Andrew Lim</a> and Prof. <a href = "https://www.jussikeppo.com" className="text-primary hover:underline">Jussi Keppo</a>.
+                  I am a fifth-year PhD candidate in Operations Research at <a href = "https://iora.nus.edu.sg" className="text-primary hover:underline">the Insitute of Operations Research & Analytics (IORA)</a> at NUS, working with Prof. <a href = "https://www.andreaslimoncello.net" className="text-primary hover:underline">Andrew Lim</a> and Prof. <a href = "https://www.jussikeppo.com" className="text-primary hover:underline">Jussi Keppo</a>.
                 </p>
                 <br></br>
                 <p className="text-foreground leading-relaxed">

@@ -82,7 +82,7 @@ const Index = () => {
               </div>
               <div className="flex items-center gap-4 mb-6">
                 <a 
-                  href="https://www.linkedin.com/in/anas-abdelhakmi/" 
+                  href="https://www.linkedin.com/in/anas-abdelhakmi-a74331182/" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="flex items-center text-muted-foreground hover:text-primary transition-colors"
@@ -91,7 +91,7 @@ const Index = () => {
                   <span>LinkedIn</span>
                 </a>
                 <a 
-                  href="https://scholar.google.com/citations?user=YOUR_ID" 
+                  href="https://scholar.google.com/citations?user=xvn2L9MAAAAJ&hl=en&oi=ao" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="flex items-center text-muted-foreground hover:text-primary transition-colors"

@@ -54,12 +54,7 @@ const Index = () => {
               <a href="#research" className="text-muted-foreground hover:text-foreground transition-colors scroll-smooth">Research</a>
               <a href="#teaching" className="text-muted-foreground hover:text-foreground transition-colors scroll-smooth">Teaching</a>
               <a href="#talks" className="text-muted-foreground hover:text-foreground transition-colors scroll-smooth">Talks</a>
-              <a href="Resume.pdf" className="text-muted-foreground hover:text-foreground transition-colors">CV</a>
             </nav>
-            {/* Mobile CV Link Only */}
-            <div className="md:hidden">
-              <a href="Resume.pdf" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground transition-colors">CV</a>
-            </div>
           </div>
         </div>
       </header>
@@ -86,6 +81,15 @@ const Index = () => {
                 <span>a.anas[at]u.nus.edu</span>
               </div>
               <div className="flex items-center gap-4 mb-6">
+                <a 
+                  href="Resume.pdf" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="flex items-center text-muted-foreground hover:text-primary transition-colors"
+                >
+                  <FileText className="w-4 h-4 mr-2" />
+                  <span>CV</span>
+                </a>
                 <a 
                   href="https://www.linkedin.com/in/anas-abdelhakmi-a74331182/" 
                   target="_blank" 

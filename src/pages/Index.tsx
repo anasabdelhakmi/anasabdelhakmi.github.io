@@ -1,4 +1,4 @@
-import { Mail, ExternalLink, FileText } from 'lucide-react';
+import { Mail, ExternalLink, FileText, Linkedin, GraduationCap } from 'lucide-react';
 import profileImage from '@/assets/me.jpg';
 
 const Index = () => {
@@ -76,9 +76,29 @@ const Index = () => {
                 PhD Candidate in Operations Research<br />
                 <a href="https://iora.nus.edu.sg" className="text-primary hover:underline">National University of Singapore</a>
               </p>
-              <div className="flex items-center text-muted-foreground mb-6">
+              <div className="flex items-center text-muted-foreground mb-4">
                 <Mail className="w-4 h-4 mr-2" />
                 <span>a.anas[at]u.nus.edu</span>
+              </div>
+              <div className="flex items-center gap-4 mb-6">
+                <a 
+                  href="https://www.linkedin.com/in/anas-abdelhakmi/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="flex items-center text-muted-foreground hover:text-primary transition-colors"
+                >
+                  <Linkedin className="w-4 h-4 mr-2" />
+                  <span>LinkedIn</span>
+                </a>
+                <a 
+                  href="https://scholar.google.com/citations?user=YOUR_ID" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="flex items-center text-muted-foreground hover:text-primary transition-colors"
+                >
+                  <GraduationCap className="w-4 h-4 mr-2" />
+                  <span>Google Scholar</span>
+                </a>
               </div>
               <div className="prose prose-lg max-w-none">
                 <p className="text-foreground leading-relaxed">

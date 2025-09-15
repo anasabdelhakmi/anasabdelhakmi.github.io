@@ -19,8 +19,8 @@ const Index = () => {
     {
       title: "Dynamic Factor Models with Forward-Looking Views",
       authors: "Anas Abdelhakmi, Andrew Lim",
-      status: "Under Revision",
-      link: "facebook.com"
+      status: "Under Review",
+      link: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5486366"
     },
     {
       title: "When Worst-Case Isn't Robust: On the Limitations of Distributionally Robust Optimization in Secretary Problems",

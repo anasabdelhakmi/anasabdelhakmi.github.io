@@ -19,7 +19,7 @@ const Index = () => {
     {
       title: "Dynamic Factor Models with Forward-Looking Views",
       authors: "Anas Abdelhakmi, Andrew Lim",
-      status: "In preparation for submission",
+      status: "Under Revision",
       link: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5366719"
     },
     {
@@ -185,7 +185,7 @@ const Index = () => {
 
           {/* Working Papers */}
           <div className="mb-12">
-            <h3 className="text-2xl font-semibold text-foreground mb-6">Working Papers</h3>
+            <h3 className="text-2xl font-semibold text-foreground mb-6">Under Revision or Working Papers</h3>
             <div className="space-y-6">
               {workingPapers.map((paper, index) => (
                 <div key={index} className="border-l-2 border-border pl-6">

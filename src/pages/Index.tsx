@@ -35,7 +35,7 @@ const Index = () => {
     {
       title: "Personalized Learning in Partially Observable Environments",
       authors: "Anas Abdelhakmi, Jussi Keppo, Hong Ming Tan",
-      status: "Work in Progress",
+      status: "Work in Progress (with industry partner)",
       notes: [ "Industrial Project with a Major Airline Company"]
     }
   ];

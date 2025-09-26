@@ -19,7 +19,7 @@ const Index = () => {
     {
       title: "Dynamic Factor Models with Forward-Looking Views",
       authors: "Anas Abdelhakmi, Andrew Lim",
-      status: "Under Review in <b>Management Science</b>",
+      status: "Under Review in Management Science",
       link: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5486366"
     },
     {

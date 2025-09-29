@@ -254,6 +254,7 @@ const Index = () => {
               <div className="flex items-start justify-between mb-2">
                 <h4 className="text-lg font-medium text-foreground">When Worst-Case Isn't Robust</h4>
               </div>
+              <p className="text-muted-foreground mb-1">NUS Next-Gen Scholar's Symposium, Singapore, September 2025</p>
               <p className="text-muted-foreground mb-1">INFORMS International 2025, Singapore, July 2025</p>
               <p className="text-muted-foreground mb-1">INFORMS APS 2025, Atlanta, USA, July 2025</p>
             </div>

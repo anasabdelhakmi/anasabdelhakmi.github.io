@@ -25,7 +25,7 @@ const Index = () => {
     {
       title: "When Worst-Case Isn't Robust: On the Limitations of Distributionally Robust Optimization in Secretary Problems",
       authors: "Anas Abdelhakmi, Andrew Lim",
-      status: "In preparation for submission"
+      status: "In preparation for submission to Management Science (Manuscript Available Upon Request)"
     },
     {
       title: "Brownian Bridge from Noisy Observations",

@@ -128,6 +128,15 @@ const Index = () => {
         <section id="news" className="mb-16 scroll-mt-20">
           <h2 className="text-3xl font-bold text-foreground mb-8">Recent News</h2>
           <div className="space-y-6">
+
+          <div className="border-l-2 border-border pl-6">
+              <div className="flex items-start justify-between mb-2">
+                <h4 className="text-lg font-medium text-foreground">Presenting at the INFORMS Job Market Showcase</h4>
+                <span className="text-sm text-muted-foreground">October 2025</span>
+              </div>
+              <p className="text-muted-foreground">I will be presenting my job market paper, <b>"When Worst-Case Isn't Robust,"</b> at the INFORMS Annual Meeting in Atlanta, US. Find me in the Machine Learning and Applied Probability Job Market Session on Sunday, October 26 at 8am.</p>
+            </div>
+
           <div className="border-l-2 border-border pl-6">
               <div className="flex items-start justify-between mb-2">
                 <h4 className="text-lg font-medium text-foreground">Upcoming talk at: <a href = "https://iora.nus.edu.sg/afx2025/" className="text-primary hover:underline">Next-Gen Scholar's Symposium 2025</a></h4>
@@ -139,13 +148,13 @@ const Index = () => {
 
             <div className="border-l-2 border-border pl-6">
               <div className="flex items-start justify-between mb-2">
-                <h4 className="text-lg font-medium text-foreground">Paper accepted in Operations Research!</h4>
-                <span className="text-sm text-muted-foreground">June 2025</span>
+                <h4 className="text-lg font-medium text-foreground">New Paper Out!</h4>
+                <span className="text-sm text-muted-foreground">September 2025</span>
               </div>
-              <p className="text-muted-foreground">Our paper <a href = "https://pubsonline.informs.org/doi/10.1287/opre.2024.1010" className="text-primary hover:underline">Dynamic Black-Litterman</a> has been accepted for publication in Operations Research. In this work, we show how decision-makers can integrate forward-looking views and forecasts into dynamic, data-driven models.</p>
+              <p className="text-muted-foreground">Our paper <a href = "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5486366" className="text-primary hover:underline">Dynamic Factor Models with Forward-Looking Views</a> is now available online. In this work, we show how decision-makers can integrate forward-looking views and forecasts about covariates into dynamic, data-driven models.</p>
             </div>
            
-            
+       
             
           </div>
         </section>

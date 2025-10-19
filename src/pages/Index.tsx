@@ -1,5 +1,6 @@
 import { Mail, ExternalLink, FileText, Linkedin, GraduationCap } from 'lucide-react';
 import profileImage from '@/assets/me.jpg';
+import speakingImage from '@/assets/speaking.jpg';
 
 const Index = () => {
   const publications = [
@@ -249,6 +250,16 @@ const Index = () => {
         {/* Talks Section */}
         <section id="talks" className="mb-16 scroll-mt-20">
           <h2 className="text-3xl font-bold text-foreground mb-8">Selected Talks</h2>
+          
+          {/* Speaking Photo */}
+          <div className="mb-8 rounded-lg overflow-hidden">
+            <img 
+              src={speakingImage} 
+              alt="Anas Abdelhakmi presenting research on Secretary Problems" 
+              className="w-full h-auto object-cover"
+            />
+          </div>
+
           <div className="space-y-6">
             <div className="border-l-2 border-border pl-6">
               <div className="flex items-start justify-between mb-2">

@@ -291,14 +291,6 @@ const Index = () => {
             </div>
           </div>
           
-          {/* Speaking Photo */}
-          <div className="mt-8 rounded-lg overflow-hidden">
-            <img 
-              src={speakingImage} 
-              alt="Anas Abdelhakmi presenting research on Secretary Problems" 
-              className="w-full h-auto object-cover"
-            />
-          </div>
         </section>
       </main>
 

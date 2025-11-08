@@ -116,8 +116,7 @@ const Index = () => {
                 </p>
                 <br></br>
                 <p className="text-foreground leading-relaxed">
-                I study <b>data-driven sequential decision-making under uncertainty</b>, with an emphasis on learning in multi-period, dynamic settings. At a high level, I design new methods that deepen our understanding of  <b>learning</b> and <b>robustness</b>, including their interaction, in sequential decision-making. I apply my research to solve operational problems in sequential search, financial engineering, and inventory management.
-
+                I study <b>data-driven sequential decision-making under uncertainty</b>, with an emphasis on learning in multi-period, dynamic settings. At a high level, I design new methods that deepen our understanding of  <b>learning</b> and <b>robustness</b>, including their interaction, in sequential decision-making. 
                 </p>
                 <br></br><p className="text-foreground leading-relaxed"> Prior to joining NUS, I earned a BSc and MSc in Industrial Engineering from <a href = "https://um6p.ma" className="text-primary hover:underline">EMINES&ndash;University Mohammed VI Polytechnic (UM6P)</a>.</p>
               </div>

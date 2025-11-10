@@ -1,8 +1,13 @@
-import { Mail, ExternalLink, FileText, Linkedin, GraduationCap } from 'lucide-react';
+import { Mail, ExternalLink, FileText, Linkedin, GraduationCap, ChevronDown } from 'lucide-react';
 import profileImage from '@/assets/me.jpg';
 import speakingImage from '@/assets/speaking.jpg';
+import { Collapsible, CollapsibleContent, CollapsibleTrigger } from '@/components/ui/collapsible';
+import { Button } from '@/components/ui/button';
+import { useState } from 'react';
 
 const Index = () => {
+  const [isOtherNewsOpen, setIsOtherNewsOpen] = useState(false);
+  
   const publications = [
     {
       title: "Dynamic Black-Litterman",
@@ -129,7 +134,15 @@ const Index = () => {
           <h2 className="text-3xl font-bold text-foreground mb-8">Recent News</h2>
           <div className="space-y-6">
 
-          <div className="border-l-2 border-border pl-6">
+            <div className="border-l-2 border-border pl-6">
+              <div className="flex items-start justify-between mb-2">
+                <h4 className="text-lg font-medium text-foreground">Featured in VOICES Alumni Interview</h4>
+                <span className="text-sm text-muted-foreground">January 2025</span>
+              </div>
+              <p className="text-muted-foreground">I was honored to be interviewed by the <a href="https://lnkd.in/e5zbZAhU" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">Fondation Ibn Rochd pour les Sciences et l'Innovation - UM6P</a> for their VOICES series, sharing my journey from EMINES to my PhD research at NUS. <i>(Interview in French)</i></p>
+            </div>
+
+            <div className="border-l-2 border-border pl-6">
               <div className="flex items-start justify-between mb-2">
                 <h4 className="text-lg font-medium text-foreground">Presenting at the INFORMS Job Market Showcase</h4>
                 <span className="text-sm text-muted-foreground">October 2025</span>
@@ -137,7 +150,7 @@ const Index = () => {
               <p className="text-muted-foreground">I will be presenting my job market paper, <b>"When Worst-Case Isn't Robust,"</b> at the INFORMS Annual Meeting in Atlanta, US. Find me in the Machine Learning and Applied Probability Job Market Session on Sunday, October 26 at 8am.</p>
             </div>
 
-          <div className="border-l-2 border-border pl-6">
+            <div className="border-l-2 border-border pl-6">
               <div className="flex items-start justify-between mb-2">
                 <h4 className="text-lg font-medium text-foreground">Upcoming talk at: <a href = "https://iora.nus.edu.sg/afx2025/" className="text-primary hover:underline">Next-Gen Scholar's Symposium 2025</a></h4>
                 <span className="text-sm text-muted-foreground">September 2025</span>
@@ -145,16 +158,23 @@ const Index = () => {
               <p className="text-muted-foreground">I'll be presenting our paper <b>"When Worst-Case Isn't Robust"</b> at NUS Next-Gen Scholar's Symposium. I'll share our recent work on understanding the interplay between learning and robustness in multi-period, sequential decision-making.</p>
             </div>
 
-
-            <div className="border-l-2 border-border pl-6">
-              <div className="flex items-start justify-between mb-2">
-                <h4 className="text-lg font-medium text-foreground">New Paper Out!</h4>
-                <span className="text-sm text-muted-foreground">September 2025</span>
-              </div>
-              <p className="text-muted-foreground">Our paper <a href = "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5486366" className="text-primary hover:underline">Dynamic Factor Models with Forward-Looking Views</a> is now available online. In this work, we show how decision-makers can integrate forward-looking views and forecasts about covariates into dynamic, data-driven models.</p>
-            </div>
-           
-       
+            <Collapsible open={isOtherNewsOpen} onOpenChange={setIsOtherNewsOpen}>
+              <CollapsibleTrigger asChild>
+                <Button variant="ghost" className="w-full justify-center gap-2 mt-4">
+                  {isOtherNewsOpen ? 'Hide' : 'Show'} Other News
+                  <ChevronDown className={`h-4 w-4 transition-transform ${isOtherNewsOpen ? 'rotate-180' : ''}`} />
+                </Button>
+              </CollapsibleTrigger>
+              <CollapsibleContent className="space-y-6 mt-6">
+                <div className="border-l-2 border-border pl-6">
+                  <div className="flex items-start justify-between mb-2">
+                    <h4 className="text-lg font-medium text-foreground">New Paper Out!</h4>
+                    <span className="text-sm text-muted-foreground">September 2025</span>
+                  </div>
+                  <p className="text-muted-foreground">Our paper <a href = "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5486366" className="text-primary hover:underline">Dynamic Factor Models with Forward-Looking Views</a> is now available online. In this work, we show how decision-makers can integrate forward-looking views and forecasts about covariates into dynamic, data-driven models.</p>
+                </div>
+              </CollapsibleContent>
+            </Collapsible>
             
           </div>
         </section>

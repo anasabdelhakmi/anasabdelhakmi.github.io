@@ -139,7 +139,7 @@ const Index = () => {
                 <h4 className="text-lg font-medium text-foreground">Featured in VOICES Alumni Interview</h4>
                 <span className="text-sm text-muted-foreground">January 2025</span>
               </div>
-              <p className="text-muted-foreground">I was honored to be interviewed by the <a href="https://lnkd.in/e5zbZAhU" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">Fondation Ibn Rochd pour les Sciences et l'Innovation - UM6P</a> for their VOICES series, sharing my journey from EMINES to my PhD research at NUS. <i>(Interview in French)</i></p>
+              <p className="text-muted-foreground">I was honored to be interviewed by the Fondation Ibn Rochd pour les Sciences et l'Innovation - UM6P for their VOICES series, sharing my journey from EMINES to my PhD research at NUS. <a href="https://lnkd.in/e5zbZAhU" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">Read the full interview here</a> <i>(in French)</i>.</p>
             </div>
 
             <div className="border-l-2 border-border pl-6">

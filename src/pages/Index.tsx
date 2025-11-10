@@ -137,7 +137,7 @@ const Index = () => {
             <div className="border-l-2 border-border pl-6">
               <div className="flex items-start justify-between mb-2">
                 <h4 className="text-lg font-medium text-foreground">Featured in VOICES Alumni Interview</h4>
-                <span className="text-sm text-muted-foreground">January 2025</span>
+                <span className="text-sm text-muted-foreground">October 2025</span>
               </div>
               <p className="text-muted-foreground">I was honored to be interviewed by the <a href = "https://www.firsi.org" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">Fondation Ibn Rochd pour les Sciences et l'Innovation - UM6P</a> for their VOICES series, discussing my path from Morocco to my PhD at NUS. <a href="https://lnkd.in/e5zbZAhU" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">Read the full interview here</a> <i>(in French)</i>.</p>
             </div>

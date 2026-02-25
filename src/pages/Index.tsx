@@ -4,6 +4,7 @@ import speakingImage from '@/assets/speaking.jpg';
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from '@/components/ui/collapsible';
 import { Button } from '@/components/ui/button';
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const Index = () => {
   const [isOtherNewsOpen, setIsOtherNewsOpen] = useState(false);
@@ -31,7 +32,8 @@ const Index = () => {
     {
       title: "When Worst-Case Isn't Robust: On the Limitations of Distributionally Robust Optimization in Secretary Problems",
       authors: "Anas Abdelhakmi, Andrew Lim",
-      status: "In preparation for submission to Management Science (Manuscript Available Upon Request)"
+      status: "In preparation for submission to Management Science (Manuscript Available Upon Request)",
+      internalLink: "/secretary-paper"
     },
     {
       title: "Brownian Bridge from Noisy Observations",
@@ -147,7 +149,7 @@ const Index = () => {
                 <h4 className="text-lg font-medium text-foreground">Presenting at the INFORMS Job Market Showcase</h4>
                 <span className="text-sm text-muted-foreground">October 2025</span>
               </div>
-              <p className="text-muted-foreground">I will be presenting my job market paper, <b>"When Worst-Case Isn't Robust,"</b> at the INFORMS Annual Meeting in Atlanta, US. Find me in the Machine Learning and Applied Probability Job Market Session on Sunday, October 26 at 8am.</p>
+              <p className="text-muted-foreground">I will be presenting my job market paper, <Link to="/secretary-paper" className="text-primary hover:underline font-semibold">"When Worst-Case Isn't Robust,"</Link> at the INFORMS Annual Meeting in Atlanta, US. Find me in the Machine Learning and Applied Probability Job Market Session on Sunday, October 26 at 8am.</p>
             </div>
 
             <div className="border-l-2 border-border pl-6">
@@ -155,7 +157,7 @@ const Index = () => {
                 <h4 className="text-lg font-medium text-foreground">Upcoming talk at: <a href = "https://iora.nus.edu.sg/afx2025/" className="text-primary hover:underline">Next-Gen Scholar's Symposium 2025</a></h4>
                 <span className="text-sm text-muted-foreground">September 2025</span>
               </div>
-              <p className="text-muted-foreground">I'll be presenting our paper <b>"When Worst-Case Isn't Robust"</b> at NUS Next-Gen Scholar's Symposium. I'll share our recent work on understanding the interplay between learning and robustness in multi-period, sequential decision-making.</p>
+              <p className="text-muted-foreground">I'll be presenting our paper <Link to="/secretary-paper" className="text-primary hover:underline font-semibold">"When Worst-Case Isn't Robust"</Link> at NUS Next-Gen Scholar's Symposium. I'll share our recent work on understanding the interplay between learning and robustness in multi-period, sequential decision-making.</p>
             </div>
 
             <Collapsible open={isOtherNewsOpen} onOpenChange={setIsOtherNewsOpen}>
@@ -221,6 +223,8 @@ const Index = () => {
                   <h4  className="text-lg font-medium text-foreground mb-2">
                   {paper.link ? (
                     <a href={paper.link} className="text-primary hover:underline">{paper.title}</a>
+                  ) : paper.internalLink ? (
+                    <Link to={paper.internalLink} className="text-primary hover:underline">{paper.title}</Link>
                   ) : (
                     <span>{paper.title}</span>
                   )}

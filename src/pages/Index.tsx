@@ -15,7 +15,7 @@ const Index = () => {
       authors: "Anas Abdelhakmi, Andrew Lim",
       journal: "Operations Research",
       year: "2026",
-      status: "",
+      status: "2026",
       link: "https://pubsonline.informs.org/doi/10.1287/opre.2024.1010",
       notes: [
       ]

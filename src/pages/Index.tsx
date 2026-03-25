@@ -14,8 +14,8 @@ const Index = () => {
       title: "Dynamic Black-Litterman",
       authors: "Anas Abdelhakmi, Andrew Lim",
       journal: "Operations Research",
-      year: "2025",
-      status: "Articles in Advance",
+      year: "2026",
+      status: " Published",
       link: "https://pubsonline.informs.org/doi/10.1287/opre.2024.1010",
       notes: [
       ]

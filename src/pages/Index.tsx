@@ -30,7 +30,7 @@ const Index = () => {
       link: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5486366"
     },
     {
-      title: "When Worst-Case Isn't Robust: On the Limitations of Distributionally Robust Optimization in Secretary Problems",
+      title: "When Worst-Case Isn't Robust: Characterizing Robustness in Secretary Problems",
       authors: "Anas Abdelhakmi, Andrew Lim",
       status: "In preparation for submission to Management Science (Manuscript Available Upon Request)",
       internalLink: "/secretary-paper"

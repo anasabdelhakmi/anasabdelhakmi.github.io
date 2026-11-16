@@ -123,7 +123,7 @@ const Index = () => {
                 </p>
                 <br></br>
                 <p className="text-foreground leading-relaxed">
-                  My research shows how to combine <b>historical data</b>, <b>human expertise</b> and <b>AI</b> to make good and reliable decisions. I study sequential decision-making under uncertainty. One part of my work integrates forward-looking information, such as expert forecasts, into dynamic models calibrated on historical data. Another studies decisions that remain reliable when the model is misspecified, and shows that robustness often comes from redesigning the decision process rather than from solving a worst-case problem.
+                  My research shows how to combine <b>historical data</b>, <b>human expertise</b> and <b>AI</b> to make good and reliable decisions. Models built from past observations may miss what experts know about the future, so I study how their forecasts can guide decisions over time. However, the model itself may be wrong. I examine how to make good decisions with models we cannot fully trust, first by asking when optimizing against the worst case helps and when it leaves decisions unreliable. In the problems I study, changing how the decision process is designed can make decisions less sensitive to these errors.
                 </p>
                 <br></br>
                 <p className="text-foreground leading-relaxed">

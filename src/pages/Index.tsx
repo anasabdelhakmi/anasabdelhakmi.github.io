@@ -123,7 +123,7 @@ const Index = () => {
                 </p>
                 <br></br>
                 <p className="text-foreground leading-relaxed">
-                  My research shows how to combine <b>historical data</b>, <b>human expertise</b> and <b>AI</b> to make good and reliable decisions. Models built from past observations may miss what experts know about the future, so I study how their forecasts can guide decisions over time. However, the model itself may be wrong. I examine how to make good decisions with models we cannot fully trust, first by asking when optimizing against the worst case helps and when it leaves decisions unreliable. In the problems I study, changing how the decision process is designed can make decisions less sensitive to these errors.
+                  My research shows how to combine <b>historical data</b>, <b>human expertise</b> and <b>AI</b> to make good and reliable decisions. Models built from past observations may miss what experts know about the future, so I study how their forecasts can guide decisions over time. However, the model itself may be wrong. I examine how to make good decisions with models we cannot fully trust, first by asking when optimizing against the worst case helps and when it leaves decisions unreliable. I then study how operational levers, such as the option to go back to an earlier choice, can make decisions more robust to these errors.
                 </p>
                 <br></br>
                 <p className="text-foreground leading-relaxed">

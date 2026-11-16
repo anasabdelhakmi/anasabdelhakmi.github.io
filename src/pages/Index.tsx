@@ -81,7 +81,7 @@ const Index = () => {
             <div className="flex-1">
               <h1 className="text-4xl font-bold text-foreground mb-2">Anas Abdelhakmi</h1>
               <p className="text-xl text-muted-foreground mb-4">
-                Postdoctoral Researcher<br />
+                Postdoctoral Fellow<br />
                 <a href="https://www.heinz.cmu.edu" className="text-primary hover:underline">Heinz College, Carnegie Mellon University</a>
               </p>
               <div className="flex items-center text-muted-foreground mb-4">
@@ -119,7 +119,7 @@ const Index = () => {
               </div>
               <div className="prose prose-lg max-w-none">
                 <p className="text-foreground leading-relaxed">
-                  I am a postdoctoral researcher at <a href="https://www.heinz.cmu.edu" className="text-primary hover:underline">Heinz College, Carnegie Mellon University</a>, working with Prof. <a href="https://www.heinz.cmu.edu/faculty-research/profiles/zhang-peter" className="text-primary hover:underline">Peter Zhang</a> and Prof. <a href="https://www.heinz.cmu.edu/faculty-research/profiles/wiberg-holly/" className="text-primary hover:underline">Holly Wiberg</a>.
+                  I am a postdoctoral fellow at the <a href="https://www.heinz.cmu.edu" className="text-primary hover:underline">Heinz College of Information Systems and Public Policy</a> at Carnegie Mellon University, working with Prof. <a href="https://www.heinz.cmu.edu/faculty-research/profiles/zhang-peter" className="text-primary hover:underline">Peter Zhang</a> and Prof. <a href="https://www.heinz.cmu.edu/faculty-research/profiles/wiberg-holly/" className="text-primary hover:underline">Holly Wiberg</a>.
                 </p>
                 <br></br>
                 <p className="text-foreground leading-relaxed">
@@ -142,9 +142,9 @@ const Index = () => {
             <div className="border-l-2 border-border pl-6">
               <div className="flex items-start justify-between mb-2">
                 <h4 className="text-lg font-medium text-foreground">Joined Carnegie Mellon University</h4>
-                <span className="text-sm text-muted-foreground">November 2026</span>
+                <span className="text-sm text-muted-foreground">October 2026</span>
               </div>
-              <p className="text-muted-foreground">I joined <a href="https://www.heinz.cmu.edu" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">Heinz College</a> at Carnegie Mellon University as a postdoctoral researcher, working with Peter Zhang and Holly Wiberg on reliable decisions in healthcare operations.</p>
+              <p className="text-muted-foreground">I joined <a href="https://www.heinz.cmu.edu" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">Heinz College</a> at Carnegie Mellon University as a postdoctoral fellow, working with Peter Zhang and Holly Wiberg on reliable decisions in healthcare operations.</p>
             </div>
 
             <div className="border-l-2 border-border pl-6">

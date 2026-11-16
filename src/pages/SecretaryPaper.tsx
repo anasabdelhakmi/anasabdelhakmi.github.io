@@ -15,7 +15,7 @@ const SecretaryPaper = () => {
 
       <main className="max-w-4xl mx-auto px-6 py-12">
         <h1 className="text-3xl font-bold text-foreground mb-4">
-        When Worst-Case Isn't Robust: Characterizing Robustness in Secretary Problems
+        When Worst-Case Isn't Robust: Secretary Problems under Model Misspecification
         </h1>
         <p className="text-lg text-muted-foreground mb-8">
           Anas Abdelhakmi, Andrew Lim
@@ -23,27 +23,17 @@ const SecretaryPaper = () => {
 
         <div>
           <h2 className="text-xl font-semibold text-foreground mb-4">Abstract</h2>
-          <p className="text-foreground leading-relaxed">
-          <p>
-  Secretary Problems are a fundamental class of sequential search problems in which a decision-maker must select the best item from a sequence revealed online, with applications in hiring, online auctions, and asset allocation. To guard against misspecification in the assumed distribution of item values and arrival order, we formulate a distributionally robust optimization (DRO) version of the problem and solve it in closed form.
-</p>
-
-<p>
-  We show that the DRO optimal policy coincides with the nominal one: the classical 1/<i>e</i> rule remains worst-case optimal in the rank-only problem, and this coincidence extends to a broad class of secretary problems under KL and &phi;-divergence ambiguity, as well as to Wasserstein ambiguity in the rank-only setting.
-</p>
-
-<p>
-  We show, however, that this coincidence is not evidence of robustness. A distributionally robust decision-maker implicitly trades expected reward against worst-case sensitivity to model misspecification, and in secretary problems this tradeoff is unfavorable: every policy lies on the same convex mean-sensitivity frontier, so changing the stopping rule cannot reduce sensitivity without sacrificing more reward.
-</p>
-
-<p>
-  Consequently, solving a DRO problem and being robust are not the same. We trace sensitivity to information shocks, meaning changes in the expected reward triggered by new observations, and show that robustness must instead come from designing operational levers that offset these shocks. Some intuitive levers, such as additional selections, can raise sensitivity; others, such as the option to recall a rejected item or a payoff that credits near-best items, offset these shocks and change the shape of the frontier.
-</p>
-
-<p>
-  Beyond secretary problems, our results clarify what it means for a sequential decision to be robust and how robustness can be achieved beyond worst-case optimization.
-</p>
-          </p>
+          <div className="space-y-4 text-foreground leading-relaxed">
+            <p>
+              Secretary problems are sequential search problems in which a decision-maker (DM) must select the best item from a sequence revealed online. To protect against misspecification of item values and arrival order, we formulate a distributionally robust (DRO) version of the problem and solve it in closed form. Under Kullback-Leibler ambiguity, the problem admits a robust dynamic program whose optimal policy coincides with the nominal one, regardless of the distributional assumptions or information structure. The nominal policy also remains DRO optimal under &phi;-divergence and, in the rank-only setting, Wasserstein ambiguity. In particular, the classical 1/<i>e</i> rule remains optimal no matter how ambiguity averse the DM is.
+            </p>
+            <p>
+              This does not mean the rule is robust. DRO trades expected reward against worst-case sensitivity to misspecification, but the all-or-nothing reward places every policy on the same convex mean-sensitivity frontier, where reducing sensitivity costs too much expected reward for DRO to change the stopping rule. To be robust, the DM must instead change the setup in which she searches.
+            </p>
+            <p>
+              We identify which changes improve robustness. Additional selection rights can raise sensitivity, making them worth less to an ambiguity-averse DM than to a nominal one. Full recall instead makes success certain, and the DM&rsquo;s willingness to pay for it increases with ambiguity. Giving partial credit for near-best items reshapes the frontier and allows the DM to trade expected reward for lower sensitivity by changing the stopping rule.
+            </p>
+          </div>
         </div>
       </main>
     </div>

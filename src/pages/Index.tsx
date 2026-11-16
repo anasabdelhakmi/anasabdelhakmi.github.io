@@ -30,7 +30,7 @@ const Index = () => {
       link: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5486366"
     },
     {
-      title: "When Worst-Case Isn't Robust: Characterizing Robustness in Secretary Problems",
+      title: "When Worst-Case Isn't Robust: Secretary Problems under Model Misspecification",
       authors: "Anas Abdelhakmi, Andrew Lim",
       status: "In preparation for submission to Management Science (Manuscript Available Upon Request)",
       internalLink: "/secretary-paper"
@@ -81,12 +81,12 @@ const Index = () => {
             <div className="flex-1">
               <h1 className="text-4xl font-bold text-foreground mb-2">Anas Abdelhakmi</h1>
               <p className="text-xl text-muted-foreground mb-4">
-                PhD Candidate in Operations Research<br />
-                <a href="https://iora.nus.edu.sg" className="text-primary hover:underline">National University of Singapore</a>
+                Postdoctoral Researcher<br />
+                <a href="https://www.heinz.cmu.edu" className="text-primary hover:underline">Heinz College, Carnegie Mellon University</a>
               </p>
               <div className="flex items-center text-muted-foreground mb-4">
                 <Mail className="w-4 h-4 mr-2" />
-                <span>a.anas[at]u.nus.edu</span>
+                <span>anasa[at]andrew.cmu.edu</span>
               </div>
               <div className="flex items-center gap-4 mb-6">
                 <a 
@@ -119,13 +119,16 @@ const Index = () => {
               </div>
               <div className="prose prose-lg max-w-none">
                 <p className="text-foreground leading-relaxed">
-                  I am a fifth-year PhD candidate in Operations Research at <a href = "https://iora.nus.edu.sg" className="text-primary hover:underline">the Insitute of Operations Research & Analytics (IORA)</a> at NUS, working with Prof. <a href = "https://www.andreaslimoncello.net" className="text-primary hover:underline">Andrew Lim</a> and Prof. <a href = "https://www.jussikeppo.com" className="text-primary hover:underline">Jussi Keppo</a>.
+                  I am a postdoctoral researcher at <a href="https://www.heinz.cmu.edu" className="text-primary hover:underline">Heinz College, Carnegie Mellon University</a>, working with Prof. <a href="https://www.heinz.cmu.edu/faculty-research/profiles/zhang-peter" className="text-primary hover:underline">Peter Zhang</a> and Prof. <a href="https://www.heinz.cmu.edu/faculty-research/profiles/wiberg-holly/" className="text-primary hover:underline">Holly Wiberg</a>.
                 </p>
                 <br></br>
                 <p className="text-foreground leading-relaxed">
-                I study <b>data-driven sequential decision-making under uncertainty</b>, with an emphasis on learning in multi-period, dynamic settings. At a high level, I design new methods that deepen our understanding of  <b>learning</b> and <b>robustness</b>, including their interaction, in sequential decision-making. 
+                  My research shows how to combine <b>historical data</b>, <b>human expertise</b> and <b>AI</b> to make good and reliable decisions. Much of it asks what happens when the model behind a decision is wrong, and how to design the operation itself, not only the decision rule, so that it stays reliable. At CMU, I apply these ideas to healthcare: when to discharge a patient and who should receive follow-up care, and when a hospital should let AI decide and when a clinician should review it.
                 </p>
-                <br></br><p className="text-foreground leading-relaxed"> Prior to joining NUS, I earned a BSc and MSc in Industrial Engineering from <a href = "https://um6p.ma" className="text-primary hover:underline">EMINES&ndash;University Mohammed VI Polytechnic (UM6P)</a>.</p>
+                <br></br>
+                <p className="text-foreground leading-relaxed">
+                  I did my PhD in Operations Research at <a href="https://iora.nus.edu.sg" className="text-primary hover:underline">the Institute of Operations Research &amp; Analytics (IORA)</a> at the National University of Singapore, with Prof. <a href="https://www.andreaslimoncello.net" className="text-primary hover:underline">Andrew Lim</a> and Prof. <a href="https://www.jussikeppo.com" className="text-primary hover:underline">Jussi Keppo</a>. Before that, I earned a BSc and MSc in Industrial Engineering from <a href="https://um6p.ma" className="text-primary hover:underline">EMINES&ndash;University Mohammed VI Polytechnic (UM6P)</a>.
+                </p>
               </div>
             </div>
           </div>
@@ -135,6 +138,14 @@ const Index = () => {
         <section id="news" className="mb-16 scroll-mt-20">
           <h2 className="text-3xl font-bold text-foreground mb-8">Recent News</h2>
           <div className="space-y-6">
+
+            <div className="border-l-2 border-border pl-6">
+              <div className="flex items-start justify-between mb-2">
+                <h4 className="text-lg font-medium text-foreground">Joined Carnegie Mellon University</h4>
+                <span className="text-sm text-muted-foreground">November 2026</span>
+              </div>
+              <p className="text-muted-foreground">I joined <a href="https://www.heinz.cmu.edu" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">Heinz College</a> at Carnegie Mellon University as a postdoctoral researcher, working with Peter Zhang and Holly Wiberg on reliable decisions in healthcare operations.</p>
+            </div>
 
             <div className="border-l-2 border-border pl-6">
               <div className="flex items-start justify-between mb-2">

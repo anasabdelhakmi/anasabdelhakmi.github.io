@@ -123,7 +123,7 @@ const Index = () => {
                 </p>
                 <br></br>
                 <p className="text-foreground leading-relaxed">
-                  My research shows how to combine <b>historical data</b>, <b>human expertise</b> and <b>AI</b> to make good and reliable decisions. Much of it asks what happens when the model behind a decision is wrong, and how to design the operation itself, not only the decision rule, so that it stays reliable. At CMU, I apply these ideas to healthcare: when to discharge a patient and who should receive follow-up care, and when a hospital should let AI decide and when a clinician should review it.
+                  My research shows how to combine <b>historical data</b>, <b>human expertise</b> and <b>AI</b> to make good and reliable decisions. I study sequential decision-making under uncertainty. One part of my work integrates forward-looking information, such as expert forecasts, into dynamic models calibrated on historical data. Another studies decisions that remain reliable when the model is misspecified, and shows that robustness often comes from redesigning the decision process rather than from solving a worst-case problem.
                 </p>
                 <br></br>
                 <p className="text-foreground leading-relaxed">
@@ -144,7 +144,7 @@ const Index = () => {
                 <h4 className="text-lg font-medium text-foreground">Joined Carnegie Mellon University</h4>
                 <span className="text-sm text-muted-foreground">October 2026</span>
               </div>
-              <p className="text-muted-foreground">I joined <a href="https://www.heinz.cmu.edu" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">Heinz College</a> at Carnegie Mellon University as a postdoctoral fellow, working with Peter Zhang and Holly Wiberg on reliable decisions in healthcare operations.</p>
+              <p className="text-muted-foreground">I joined <a href="https://www.heinz.cmu.edu" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">Heinz College</a> at Carnegie Mellon University as a postdoctoral fellow, working with Peter Zhang and Holly Wiberg.</p>
             </div>
 
             <div className="border-l-2 border-border pl-6">
